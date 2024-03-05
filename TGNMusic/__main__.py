@@ -36,7 +36,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("TGNMusic.plugins" + all_module)
-    LOGGER("TGNMusic.plugins").info("Successfully Imported Modules...")
+    LOGGER("TGNMusic.plugins").info("Successfully Importedd Module...")
     await userbot.start()
     await TGN.start()
     try:
@@ -54,7 +54,7 @@ async def init():
     )
     await idle()
     await app.stop()
-    LOGGER("TGNMusic").info("Stopping TGN Music Bot...")
+    LOGGER("TGNMusic").info("Stopping oshio music Bot...")
 
 
 if __name__ == "__main__":
